@@ -5,7 +5,8 @@ from carla_sgg.sgg import SGG
 def main():
     # setup the CARLA client
     client = carla.Client('localhost', 2000)
-    client.set_timeout(10.0)
+    # This is longer than typical - the client timeout must wait for the SGG indexing to complete
+    client.set_timeout(120.0)
 
     # load the environment
     world = client.load_world('Town10_Opt')  # set town string to load a different map
