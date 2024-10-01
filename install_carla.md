@@ -20,8 +20,8 @@ Follow the above link to install conda as appropriate for your system.
 2. Setup the conda environment:
 The environment will be called `carla_sgg` and is built from the `environment.yml` file:
 ```bash
-conda env create -f environment.yml
-conda activate carla_sgg
+conda env create -f environment.yml --prefix .carlasg
+conda activate .carlasg/
 ```
 
 3. Download CARLA from GitHub [here](https://github.com/carla-simulator/carla/blob/master/Docs/download.md) using [0.9.14](https://github.com/carla-simulator/carla/releases/tag/0.9.14/) as the current latest. This will take several minutes
