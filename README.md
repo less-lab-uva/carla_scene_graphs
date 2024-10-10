@@ -20,5 +20,5 @@ Instructions for installing CARLA version `0.9.14` and the relevant dependencies
 
 ## Publications using this plugin
 This plugin has been successfully deployed in several techniques. Please let us know if you use the tool!
-* ICSE'24 [link](https://dl.acm.org/doi/abs/10.1145/3597503.3639178) S3C: Spatial Semantic Scene Coverage for Autonomous Vehicles
+* ICSE'24 [link](https://dl.acm.org/doi/abs/10.1145/3597503.3639178) S<sup>3</sup>C: Spatial Semantic Scene Coverage for Autonomous Vehicles
 * ICRA'24 [link](https://ieeexplore.ieee.org/abstract/document/10610973/) Specifying and Monitoring Safe Driving Properties with Scene Graphs

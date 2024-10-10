@@ -22,7 +22,7 @@ By default, we only allow for relationships between the ego vehicle and other en
 
 ### Distance relationships
 The distances used to define the relationships in the graph are tunable.
-We utilized the 5 default parameterization used by RoadScene2Vec, and a maximum distance of 50 meters.
+We extend the five defaults used by RoadScene2Vec, adding a new nearest distance `safe_hazard` for entities closer than 2m, and a maximum distance of 50 meters.
 
 | Criteria            | Short Name    | Long Name                    |
 |---------------------|---------------|------------------------------|
@@ -54,7 +54,7 @@ The default parameterization uses 45 degree increments, giving each of the 4 com
 ![image](../imgs/relationships.png)
 
 ## Variations
-[S3C](https://dl.acm.org/doi/pdf/10.1145/3597503.3639178) explored several variations on the RSV abstraction to include different levels of detail.
+[S<sup>3</sup>C](https://dl.acm.org/doi/pdf/10.1145/3597503.3639178) explored several variations on the RSV abstraction to include different levels of detail.
 The table below describes the different abstractions along with the function call used to generate them.
 
 | Short Name | Description                  | Function in [sgg_abstractor.py](../carla_sgg/sgg_abstractor.py) | Description                                                               |
