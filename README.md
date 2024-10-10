@@ -1,7 +1,6 @@
 # Carla Scene Graphs
 
-![Video of short driving scenario in CARLA](./imgs/car.gif)
-![Video of corresponding scene graphs generated with our tool](./imgs/sg.gif)
+![Video of short driving scenario in CARLA with corresponding scene graphs extracted using our tool](./imgs/stacked.gif)
 
 This repo contains code to generate Scene Graphs for the CARLA simulator.
 We have detailed guides in the [docs folder](./docs) explaining the scene graph generator (SGG) as well as instructions and demos on how to utilize the framework.
