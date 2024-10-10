@@ -1,4 +1,4 @@
-# Carla Scene Graphs
+# CARLA Scene Graphs
 
 ![Video of short driving scenario in CARLA with corresponding scene graphs extracted using our tool](./imgs/stacked.gif)
 
