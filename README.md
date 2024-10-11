@@ -5,9 +5,9 @@
 This repo contains code to generate Scene Graphs for the CARLA simulator.
 We have detailed guides in the [docs folder](./docs) explaining the scene graph generator (SGG) as well as instructions and demos on how to utilize the framework.
 
+* [Quickstart guide](./docs/How-to-instantiate-it.md)
 * [Main components and functions](./docs/Main-components-and-functions.md)
-* [Abstractions](./docs/Abstractions.md)
-* [How to instantiate it](./docs/How-to-instantiate-it.md)
+* [Scene Graph Abstractions](./docs/Abstractions.md)
 * [Example with CARLA Leaderboard 2.0](./docs/Example-with-CARLA-Leaderboard-2.0.md)
 
 # Installing CARLA
@@ -17,6 +17,12 @@ Note that the CARLA API is not always backward compatible - if you identify erro
 the interface may have changed.
 
 Instructions for installing CARLA version `0.9.14` and the relevant dependencies can be found in [this README](./install_carla.md).
+
+# Quick start
+We offer two quick start guides:
+
+* For a minimal working example running in a plain CARLA environment that you can extend, see [this guide](./docs/How-to-instantiate-it.md).
+* To generate scene graphs for the scenarios described in the [CARLA leaderboard 2.0](https://leaderboard.carla.org/get_started/), see [this guide](./docs/Example-with-CARLA-Leaderboard-2.0.md).
 
 ## Publications using this plugin
 This plugin has been successfully deployed in several techniques. Please let us know if you use the tool!
