@@ -2,22 +2,22 @@
 The SGG is broken into several components:
 
 ## Main components
-* The Scene Graph Generator (SGG) [carla_sgg/sgg.py](../../blob/main/carla_sgg/sgg.py)
+* The Scene Graph Generator (SGG) [carla_sgg/sgg.py](../carla_sgg/sgg.py)
   * Generates the "base SG" - the most semantically rich scene graph. See [methods](#the-scene-graph-generator-sgg) below.
-* The Scene Graph Abstractor (SGA) [carla_sgg/sgg_abstractor.py](../../blob/main/carla_sgg/sgg_abstractor.py)
+* The Scene Graph Abstractor (SGA) [carla_sgg/sgg_abstractor.py](../carla_sgg/sgg_abstractor.py)
   * Functions for _abstracting_ the base SG into forms more applicable to the given task. See the [Abstractions](../Abstractions) wiki page for more information about the different abstractions available.
 
 ## Helper components
-* [utils.py](../../blob/main/carla_sgg/utils.py)
+* [utils.py](../carla_sgg/utils.py)
   * Helper functions for working with different objects
-* [viz.py](../../blob/main/carla_sgg/viz.py)
+* [viz.py](../carla_sgg/viz.py)
   * Functions to plot/visualize scene graphs
-* [actors.py](../../blob/main/carla_sgg/actors.py)
+* [actors.py](../carla_sgg/actors.py)
   * Mappings between different CARLA actor types and their attributes within the SG
 
 # Methods
 ## The Scene Graph Generator (SGG)
-The SGG lives in [carla_sgg/sgg.py](../../blob/main/carla_sgg/sgg.py) and declares a type `SGG` that must be instantiated for the given simulation episode. Then, at each time step, the SGG can be invoked to generate a new scene graph based on the current state of the simulation. See [this guide](../How-to-instantiate-it/) for more information about setting up a minimum viable example.
+The SGG lives in [carla_sgg/sgg.py](../carla_sgg/sgg.py) and declares a type `SGG` that must be instantiated for the given simulation episode. Then, at each time step, the SGG can be invoked to generate a new scene graph based on the current state of the simulation. See [this guide](../How-to-instantiate-it/) for more information about setting up a minimum viable example.
 
 ### The Constructor
 The SGG takes in a reference to the CARLA client object being used for the simulation as well as the ID of the _ego vehicle_.

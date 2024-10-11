@@ -44,4 +44,4 @@ This method takes in two parameters: the world snapshot and the ego vehicle cont
 ```
 
 # Full Example
-See [mwe.py](../../blob/main/mwe.py) for a full minimal working example.
+See [mwe.py](../mwe.py) for a full minimal working example.
