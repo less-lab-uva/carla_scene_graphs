@@ -1,6 +1,6 @@
 # CARLA Scene Graphs
 
-[:star: :star: :star: DEMO VIDEO (youtube) :star: :star: :star:](https://youtu.be/DpJD37PyzuM)
+[:star: :star: :star: DEMO VIDEO (youtube) :star: :star: :star:](https://youtu.be/mTJyNAJzxi4)
 
 
 ![Video of short driving scenario in CARLA with corresponding scene graphs extracted using our tool](./imgs/stacked.gif)
