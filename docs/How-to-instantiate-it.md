@@ -1,6 +1,6 @@
 # Instantiating the SGG
 This page outlines the minimal working example to generate a scene graph.
-Check [here](../Main-components-and-functions.md) for a more detailed description of the API, and [here](../Abstractions.md) for detailed information about the available abstractions.
+Check [here](./Main-components-and-functions.md) for a more detailed description of the API, and [here](./Abstractions.md) for detailed information about the available abstractions.
 
 ```python
     # setup the CARLA client
