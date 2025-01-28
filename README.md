@@ -97,7 +97,7 @@ sudo docker run --privileged --gpus all -v $(pwd):/carla_sgg/:rw --net=host -it 
 This will run the simulation to produce this simulator state:
 ![CARLA simulator state](./imgs/docker_example_carla.png)
 
-and this scene graph:
+and this scene graph (stored at `./docker_example_sg.jpg`):
 ![Scene Graph Example](./docker_example_sg.jpg)
 
 
