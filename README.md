@@ -86,6 +86,21 @@ We offer two quick start guides:
 * For a minimal working example running in a plain CARLA environment that you can extend, see [this guide](./docs/How-to-instantiate-it.md).
 * To generate scene graphs for the scenarios described in the [CARLA leaderboard 2.0](https://leaderboard.carla.org/get_started/), see [this guide](./docs/Example-with-CARLA-Leaderboard-2.0.md).
 
+## Running the Docker Example
+```bash
+# build the container
+sudo docker build -t carla_test:latest .
+# run the example
+sudo docker run --privileged --gpus all -v $(pwd):/carla_sgg/:rw --net=host -it -e DISPLAY=$DISPLAY carla_test:latest /bin/bash -i "/docker_example_internal.sh"
+```
+
+This will run the simulation to produce this simulator state:
+![CARLA simulator state](./imgs/docker_example_carla.png)
+
+and this scene graph:
+![Scene Graph Example](./docker_example_sg.jpg)
+
+
 ## Publications using this plugin
 This plugin has been successfully deployed in several techniques. Please let us know if you use the tool!
 * ICSE'24 [link](https://dl.acm.org/doi/abs/10.1145/3597503.3639178) S<sup>3</sup>C: Spatial Semantic Scene Coverage for Autonomous Vehicles

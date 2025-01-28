@@ -168,7 +168,7 @@ dependencies:
       - black==21.12b0
       - bleach==4.1.0
       - cached-property==1.5.2
-      - carla==0.9.13
+      - carla==0.9.14
       - cloudpickle==1.3.0
       - cython==0.29.26
       - dataclasses==0.6
